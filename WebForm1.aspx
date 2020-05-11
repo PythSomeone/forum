@@ -2,33 +2,26 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<head>
+<meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-           <table>
-                <tr>
-                    <td>
-                        <asp:Label ID="Label1" runat="server" Text="Login"></asp:Label>
-                        <asp:TextBox ID="login" runat="server"></asp:TextBox>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <asp:Label ID="Label2" runat="server" Text="Hasło"></asp:Label>
-                        <asp:TextBox ID="password" runat="server"></asp:TextBox>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </form>
+   <div class="login-box">
+
+       <h1>Login</h1>
+
+       <div class="textbox">
+           <input type="text" placeholder="Username" name="" value="">
+       </div>
+
+       <div class="textbox">
+           <input type="password" placeholder="Password" name="" value="">
+       </div>
+
+       <input class="button" type="button" name="" value="Sign in">
+
+   </div>
 </body>
 </html>
