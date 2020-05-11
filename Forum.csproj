@@ -89,7 +89,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Style.css" />
-    <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
