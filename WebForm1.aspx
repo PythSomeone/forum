@@ -12,7 +12,7 @@
         <div>
             <tr>
                 <td>
-                    <asp:Label ID="Label1" runat="server" Text="Login"></asp:Label>
+                    <asp:Label ID="Label1" runat="server" Text="Logins"></asp:Label>
                     <asp:TextBox ID="login" runat="server"></asp:TextBox>
                 </td>
             </tr>
